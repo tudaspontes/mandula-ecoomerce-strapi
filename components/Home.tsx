@@ -1,13 +1,13 @@
 import Footer from "./Footer";
 import Navbar from "./Navbar";
+import Hero from "./Hero";
 
-const Layout = ({ children, categories }) => {
+export default function Home() {
   return (
     <div className="bg-default">
       <div className="max-w-screen-full flex flex-col min-h-screen w-full font-light">
         <Navbar />
-
-        <div className="flex-grow">{children}</div>
+        <Hero />
         <Footer />
       </div>
       <div
@@ -18,5 +18,3 @@ const Layout = ({ children, categories }) => {
     </div>
   );
 };
-
-export default Layout;
