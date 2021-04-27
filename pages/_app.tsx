@@ -1,10 +1,11 @@
+import { AppProps } from 'next/app'
 import App from "next/app";
 import Head from "next/head";
 import Layout from "../components/Layout";
 import { getCategories } from "../utils/api";
 import "../styles/index.css";
 
-const MyApp = ({ Component, pageProps }) => {
+const MyApp = ({ Component, pageProps }: AppProps) => {
   return (
     <Layout categories={pageProps.categories}>
       <Head>
