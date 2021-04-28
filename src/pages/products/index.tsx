@@ -42,6 +42,11 @@ export default function ProductsList({ products }: ProductProps){
               </div>
             </a>
           </Link>
+          <div
+          hidden
+          id="snipcart"
+          data-api-key="ODhhNWUxOGEtNTk0OC00OTQwLWJkOWMtM2M1ZmNjODU1ZDJhNjM3MzMyNzM0NjM1OTMyNjcz"
+        ></div>
         </div>
       ))}
     </div>

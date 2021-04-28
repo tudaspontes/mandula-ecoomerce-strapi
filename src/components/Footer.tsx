@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <div className="flex justify-between m-6">
+    <div className="flex justify-between m-6 max-h-screen">
       <p className="text-xs font-semibold text-gray-600">
         Mandula Natural 2021 | © Todos os Direitos Reservados
       </p>
@@ -11,9 +11,7 @@ export default function Footer() {
         <a href="https://facebook.com/strapijs" className="ml-3">
           <img src="/facebook.svg" alt="Facebook" />
         </a>
-        <a
-          href="https://instagram.com/"
-          className="ml-3"
+        <a href="https://instagram.com/" className="ml-3"
         >
           <img src="/instagram.svg" alt="Instagram" />
         </a>
