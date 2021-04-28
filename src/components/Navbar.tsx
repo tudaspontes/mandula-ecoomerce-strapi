@@ -32,14 +32,14 @@ export default function Navbar() {
             <Link href="/">
               HOME
             </Link>
-            <Link href="/about">
+            <Link href="about">
               QUEM SOMOS
             </Link>
             <Link href="/products" prefetch>
               PRODUTOS
             </Link>
 
-            <Link href="/contact">
+            <Link href="contact">
               CONTATO
             </Link>
             <Link href="/">

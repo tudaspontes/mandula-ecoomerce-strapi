@@ -12,10 +12,10 @@ export default function Footer() {
           <img src="/facebook.svg" alt="Facebook" />
         </a>
         <a
-          href="https://github.com/strapi/strapi-starter-next-ecommerce"
+          href="https://instagram.com/"
           className="ml-3"
         >
-          <img src="/github.svg" alt="GitHub" />
+          <img src="/instagram.svg" alt="Instagram" />
         </a>
       </div>
     </div>
