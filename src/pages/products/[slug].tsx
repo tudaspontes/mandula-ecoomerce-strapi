@@ -4,7 +4,18 @@ import { useRouter } from "next/router";
 import { getProduct } from "../../utils/api";
 import { getStrapiMedia } from "../../utils/medias";
 
-export default function ProductPage({ product }) {
+interface ProductPageProps {
+  product: {
+    title: string;
+    price: number;
+    description: string;
+    id: number;
+    image;
+    status: string;
+  }
+}
+
+export default function ProductPage({ product }: ProductPageProps) {
   const router = useRouter();
   if (router.isFallback) {
     return <div>Loading category...</div>;
@@ -67,5 +78,9 @@ export default function ProductPage({ product }) {
 
 export const getServerSideProps: GetServerSideProps = async ({ params }) => {
   const product = await getProduct(params.slug);
-  return { props: { product } };
+  return {
+    props: {
+      product
+    }
+  };
 }

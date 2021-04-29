@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <div className="flex justify-between m-6 max-h-screen">
+    <div className="flex justify-between m-6 max-h-screen bg-default">
       <p className="text-xs font-semibold text-gray-600">
         Mandula Natural 2021 | © Todos os Direitos Reservados
       </p>

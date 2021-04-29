@@ -15,7 +15,7 @@ export default class MyDocument extends Document {
           <link rel="shortcut icon" href="favicon.ico" type="image/png" />
           <script src="https://cdn.snipcart.com/themes/v3.0.16/default/snipcart.js" />
         </Head>
-        <body>
+        <body className="bg-default">
           <Main />
 
           <NextScript />

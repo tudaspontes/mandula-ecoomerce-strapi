@@ -6,7 +6,7 @@ module.exports = {
     extend: {
       colors: {
         primary: colors.indigo,
-        default: "#FBEFEB",
+        default: "rgba(245, 222, 213, 1)",
         hero: "#C4C4C4",
       },
     },
